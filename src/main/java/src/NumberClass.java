@@ -9,10 +9,8 @@ public class NumberClass {
      * @param numberA (int)
      * @param numberB (int)
      * @return list (Array<float>)
-	 * @throws Exception 
      */
-    public static ArrayList<Float> ListOfSquareRoot(int numberA, int numberB) throws Exception{
-//        CheckSuperior(numberA, numberB);
+    public static ArrayList<Float> ListOfSquareRoot(int numberA, int numberB){
         ArrayList<Float> list = new ArrayList<Float>();
         
         for (int i = numberA; i <= numberB; i++) {
@@ -21,18 +19,6 @@ public class NumberClass {
         
         return list;
     }
-
-    
-//	/** Check if the A value is less than the B value
-//     * @param numberA (int)
-//     * @param numberB (int)
-//	 * @throws Exception 
-//     */
-//    private static void CheckSuperior(int numberA, int numberB) throws Exception{
-//        if(numberA > numberB) {
-//        	throw new Exception("La valeur A est sup�rieur � la valeur B");
-//        }
-//    }
     
     
 	/** Calcul square root od number
