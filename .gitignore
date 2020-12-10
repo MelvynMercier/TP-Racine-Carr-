@@ -1,2 +1,5 @@
 .project
 .classpath
+.settings/org.eclipse.jdt.core.prefs
+target/classes/META-INF/MANIFEST.MF
+target/classes/META-INF/maven/TP/RacineCarre/pom.properties
