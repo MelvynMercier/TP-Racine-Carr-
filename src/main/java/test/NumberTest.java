@@ -1,16 +1,9 @@
 package test;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.Assert.assertThrows;
-import static org.junit.Assert.fail;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.ArrayList;
-
-import org.junit.After;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 
 import src.NumberClass;
