@@ -44,7 +44,6 @@ public class NumberClass {
      */
 	private static int[] CheckInteger(String numberA, String numberB) throws Exception {
         try {
-            
             Integer.parseInt(numberB);
             
             int[] transform = new int[2];
